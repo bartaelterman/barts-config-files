@@ -1,0 +1,13 @@
+execute pathogen#infect()
+filetype plugin indent on
+set ruler
+set shiftwidth=4
+set tabstop=8
+colorscheme desert
+syntax on
+set expandtab
+nmap <F8> :TagbarToggle<CR>
+let g:tagbar_left=1
+au FileType javascript call JavaScriptFold()
+set foldlevel=20
+set omnifunc=syntaxcomplete#Complete
