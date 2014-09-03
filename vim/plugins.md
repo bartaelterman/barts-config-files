@@ -27,3 +27,8 @@ I merely use this plugin because it causes vim to correctly fold JavaScript code
 
 https://github.com/jelera/vim-javascript-syntax
 
+# YouCompleteMe
+
+Code completion for python (amongst others). To install YCM, I needed to install [MacVim](https://code.google.com/p/macvim/].
+
+http://valloric.github.io/YouCompleteMe/
