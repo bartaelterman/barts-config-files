@@ -7,6 +7,7 @@ colorscheme desert
 syntax on
 set expandtab
 nmap <F8> :TagbarToggle<CR>
+nmap <F9> :TagbarOpenAutoClose<CR>
 let g:tagbar_left=1
 au FileType javascript call JavaScriptFold()
 set foldlevel=20
